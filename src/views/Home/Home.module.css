@@ -1,0 +1,10 @@
+.wrapper {
+  max-width: 1224px;
+  padding: 30px 20px;
+  margin: 0 auto;
+  font: 16px/14px 'Nunito', sans-serif;
+}
+.wrapper a {
+  text-decoration: none;  
+  color:#1cb955;
+}

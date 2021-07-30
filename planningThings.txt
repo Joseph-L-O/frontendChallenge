@@ -1,0 +1,33 @@
+pegar dados do usuário:
+returns "display_name":"nomedousuario",
+	"email":"emaildousuario",
+	"images":[{"height":null,"url":"urldaimagemusuario","width":null}];
+
+pegar os artistas:
+returns "artists":"external_urls":"spotify",
+	"followers":"total",
+	"genres":[],
+	"href":"url",
+	"id":"idexemplo",
+	"images":["height":1000,"url":"urlimagem","width":1000(provavelmentepx)],
+	"name":"nomedoartista",
+	"popularity":77,
+	"type":artist
+
+pegar os álbuns:
+returns "name":"nomedoalbum",
+	"popularity":65,
+	"release_date":"yyyy-mm-dd",
+	"images":[{"height":640,"url":"urldoalbum","width":640}],
+	"copyrights":[{"text":"(C)copyright","type":"c"}],
+
+
+estudar dependências
+adicionar dependências
+
+
+
+
+
+
+

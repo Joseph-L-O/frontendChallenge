@@ -1,0 +1,56 @@
+.HeaderContainer{
+    padding:0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: arial;
+}
+.Logo img{
+    height:60px;
+}
+.MenuDesktop{
+    list-style: none;
+    display: flex;
+    padding:15px;
+}
+.MenuDesktop a {
+    padding:19px;
+    text-decoration: none;
+    color:#fff;
+}
+.MenuDesktop a:hover {
+    border-top: 2px solid #6FF49F;
+}
+.MenuMobile{
+    display: none;
+}
+
+@media screen and (max-width:1200px){
+    .HeaderContainer{
+        display: block;
+        padding: 0;
+    }
+    .Logo img{
+        padding: 0 5%;
+    }
+    .MenuDesktop{
+        display: none;
+    }
+    .MenuMobile{
+        list-style: none;
+        height: 150px;
+        width: 100%;
+        display: block;
+    }
+    .MenuMobile li{
+        left: 10px;
+        width: 100%;
+        border: 1px solid #2EBC63;
+    }
+    .MenuMobile a {
+        display: block;
+        padding:12px 15px;
+        text-decoration: none;
+        color:#fff;
+    }
+}

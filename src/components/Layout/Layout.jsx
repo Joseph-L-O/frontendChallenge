@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 
-import { Footer } from 'plurall-footer'
-import NavBar from 'plurall-header'
+import { Footer } from 'components'
+import { NavBar } from 'components'
 
-import { getToken, setToken } from 'utils'
+import { setToken } from 'utils'
 
 import styles from './Layout.module.css'
 
@@ -29,18 +29,7 @@ class Layout extends Component {
     return (
       <>
         <div className={navBar}>
-          <NavBar
-            data={{
-              menu: {
-                items: [{ name: 'Início', slug: 'account', id: 0, href: '/' },
-                { name: 'Buscar', slug: 'search', id: 1, href: '/buscar' },
-                { name: 'Sair', slug: 'sair', id: 2, }]
-              },
-            }}
-            logout={this.handleLogout}
-            service="reader"
-            userToken={getToken()}
-          />
+          <NavBar />
         </div>
 
         <div className={content}>{children}</div>
